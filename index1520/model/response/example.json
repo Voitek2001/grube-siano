@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "success": true,
+    "totalTimeRequest": 0.069,
+    "count": 1,
+    "period": {
+      "reportingPeriod": {
+        "from": "2025-01-01",
+        "to": "2026-01-31"
+      },
+      "compareWith": {
+        "from": "2023-01-01",
+        "to": "2024-01-31"
+      }
+    }
+  },
+  "data": [
+    {
+      "departureName": "China",
+      "departureId": "CN",
+      "destinationId": "PL",
+      "destinationName": "Poland",
+      "currentPeriodTeu": "18397",
+      "currentPeriodActualWeight": 101.285965990543,
+      "currentPeriodShippingQty": 200.307692307692,
+      "currentPeriodTime": 9.4,
+      "currentPeriodTransitTime": 12.6471929634054,
+      "currentPeriodFullTime": 17.413914,
+      "previousPeriodTeu": "3350",
+      "previousPeriodActualWeight": 20.6148229839802,
+      "previousPeriodShippingQty": 56.7692307692308,
+      "previousPeriodTime": 8.59,
+      "previousPeriodTransitTime": 9.118138424821,
+      "previousPeriodFullTime": 13.886724,
+      "relativeTeu": 449.164179104478,
+      "relativeActualWeight": 391.325906942072,
+      "relativeShippingQty": 252.845528455285,
+      "relativeTime": 9.42956926658907,
+      "relativeTransitTime": 38.7036736465606,
+      "relativeFullTime": 25.3997271062635
+    }
+  ],
+  "aggregate": {
+    "departureId": 0,
+    "destinationId": 0,
+    "currentPeriodTeu": "18397",
+    "currentPeriodActualWeight": 101.285965990543,
+    "currentPeriodShippingQty": 200.307692307692,
+    "currentPeriodTime": 9.4,
+    "currentPeriodTransitTime": 12.6471929634054,
+    "currentPeriodFullTime": 17.413914,
+    "previousPeriodTeu": "3350",
+    "previousPeriodActualWeight": 20.6148229839802,
+    "previousPeriodShippingQty": 56.7692307692308,
+    "previousPeriodTime": 8.59,
+    "previousPeriodTransitTime": 9.118138424821,
+    "previousPeriodFullTime": 13.886724,
+    "relativeTeu": 449.164179104478,
+    "relativeActualWeight": 391.325906942072,
+    "relativeShippingQty": 252.845528455285,
+    "relativeTime": 9.42956926658907,
+    "relativeTransitTime": 38.7036736465606,
+    "relativeFullTime": 25.3997271062635
+  },
+  "route": null,
+  "interval": null,
+  "errors": []
+}
