@@ -1,8 +1,8 @@
 from pydantic import BaseModel
 
-from index1520.model.response.data import Data
-from index1520.model.response.aggregate import Aggregate
-from index1520.model.response.meta.meta import Meta
+from index1520.api.response.data import Data
+from index1520.api.response.aggregate import Aggregate
+from index1520.api.response.meta.meta import Meta
 from typing import List
 import json
 

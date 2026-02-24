@@ -1,7 +1,7 @@
 
-from index1520.model.request.routeRequestParam import RouteRequestParam
+from index1520.api.request.routeRequestParam import RouteRequestParam
 from pyhscodes import hscodes
-from index1520.api.index1520_service import Index1520Service
+from index1520.service.route_service import RouteService
 import pprint
 import random
 
@@ -29,10 +29,10 @@ def generateAllPossibleParams(level):
 
 if __name__ == '__main__':
     from time import sleep
-    service = Index1520Service()
+    service = RouteService()
     for currParam in generateAllPossibleParams("2"):
 
-        response = service.callRoute(currParam)
+        response = service.getRoute(currParam)
         pprint.pprint(response.model_dump())
         sleep(1 + random.random() + random.randint(1, 2))
         # TODO save reponse to DB
